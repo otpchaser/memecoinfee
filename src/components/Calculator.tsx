@@ -38,10 +38,16 @@ export default function Calculator() {
           <div className="text-center mb-8">
             <div className="flex items-center justify-center gap-2 mb-2">
               <Coins className="w-8 h-8 text-purple-300" />
-              <h1 className="text-3xl font-bold text-white">Solana Meme Calculator</h1>
+              <h1 className="text-3xl font-bold text-white">Solana Memecoin Trading Fee Calculator</h1>
             </div>
-            <p className="text-blue-200">Calculate your SOL meme coin investments</p>
-            <p className="text-blue-200 text-sm mt-2">Includes BullX fees and Solana network fees for both buy and sell transactions</p>
+            <p className="text-blue-200">Calculate fees to get true PnL at certain price points</p>
+            <p className="text-blue-200 text-sm mt-2">
+              Includes Pumpfun Fee, Minimum Validator Tip, and Platform fee (1% TX Fee) for{' '}
+              <a href="https://t.me/BullxBetaBot?start=access_TWZO2VI1ULQ" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">BullX Neo</a>,{' '}
+              <a href="https://photon-sol.tinyastro.io/@otpchaser" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">Photon</a>,{' '}
+              <a href="https://t.me/BloomSolana_bot?start=ref_otp" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">Bloom</a>, and{' '}
+              <a href="https://t.me/TradeonNovaBot?start=r-otpchaser" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">Nova</a>
+            </p>
           </div>
 
           {error && (
